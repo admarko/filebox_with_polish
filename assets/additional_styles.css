@@ -1,8 +1,43 @@
 /* Additional styles */
-
 body {
   font-family: "Open Sans";
+  color: rgb(68, 68, 68);
 }
+
+h1, h2{
+  font-weight: 100;
+  line-height: 130%;
+}
+
+.navbar a {
+  color: rgb(0,126,229) !important; /* important gives attribute higher precedence*/
+  margin-top: 3px;
+  margin-bottom: 0px;
+}
+
+p{
+  font-size: 18px;
+  font-weight: 100;
+  line-height: 200%;
+}
+
+.footer{
+  color: grey;
+}
+
+.footerh{
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: grey;
+}
+
+.list-unstyled li{
+  margin-bottom: 5px !important;
+  color: grey;
+}
+
+
+
 
 /* My standard vertical spacing classes */
 
@@ -80,4 +115,13 @@ body {
 
 .margin-below-bottom-xl {
   margin-bottom: 200px;
+}
+
+/* Mine */
+.navbar .nav > li > a{
+  color: blue;
+}
+
+.colorhelp{
+  color: blue;
 }
